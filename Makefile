@@ -24,7 +24,7 @@
 
 PYFILES = genheaders.py reg.py
 GENOPTS =
-GENHEADERS = genheaders.py $(GENOPTS)
+GENHEADERS = ./genheaders.py $(GENOPTS)
 
 # Generate all headers for GL / GLES / WGL / GLX / EGL
 # Different headers depend on different XML registry files
